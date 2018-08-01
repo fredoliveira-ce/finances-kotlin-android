@@ -1,1 +1,1 @@
-"# finances-kotlin-andoird" 
+"# finances-kotlin-android" 
