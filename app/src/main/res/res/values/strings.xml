@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Finances</string>
+    <string name="lista_transacoes_adiciona" />
+    <string name="adiciona_receita">Add revenue</string>
+    <string name="adiciona_despesa">Add expense</string>
+    <string name="altera_receita">Update revenue</string>
+    <string name="altera_despesa">Update expense</string>
+    <string name="valor">Value</string>
+    <string name="data">Date</string>
+    <string name="categoria">Category</string>
+    <string name="receita">Revenue</string>
+    <string name="despesa">Expense</string>
+    <string name="total">Total</string>
+    <string name="mes">Month</string>
+    <string name="ano">Year</string>
+</resources>

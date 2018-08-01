@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias_de_receita">
+        <item>Indefinite revenue </item>
+        <item>Savings</item>
+        <item>Loan</item>
+        <item>Payment</item>
+        <item>Gift</item>
+        <item>Salary</item>
+        <item>Sales</item>
+    </string-array>
+    <string-array name="categorias_de_despesa">
+        <item>Indefinite expenditure</item>
+        <item>Home</item>
+        <item>Food</item>
+        <item>Leisure</item>
+        <item>Clothing</item>
+        <item>Health</item>
+        <item>Supermarket</item>
+        <item>Transport</item>
+    </string-array>
+    <string-array name="meses">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

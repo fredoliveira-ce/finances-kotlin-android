@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/lista_transacoes_resumo"
+            layout="@layout/resumo_card" />
+
+        <ListView
+            android:id="@+id/lista_transacoes_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/lista_transacoes_resumo"
+            android:layout_alignParentBottom="true"
+            android:divider="@null"
+            android:dividerHeight="0dp" />
+
+    </LinearLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/lista_transacoes_adiciona_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        fab:menu_backgroundColor="#ccffffff"
+        fab:menu_colorNormal="#367C25"
+        fab:menu_colorPressed="#266817"
+        fab:menu_colorRipple="#195b09"
+        fab:menu_labels_colorNormal="#fff"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_singleLine="true"
+        fab:menu_labels_textColor="#000">
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/lista_transacoes_adiciona_receita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_top_right_white_24dp"
+            fab:fab_colorNormal="@color/receita"
+            fab:fab_colorPressed="#2945fc"
+            fab:fab_colorRipple="#3216e2"
+            fab:fab_label="@string/adiciona_receita"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/lista_transacoes_adiciona_despesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_bottom_left_white_24dp"
+            fab:fab_colorNormal="@color/despesa"
+            fab:fab_colorPressed="#E8004A"
+            fab:fab_colorRipple="#C20024"
+            fab:fab_label="@string/adiciona_despesa"
+            fab:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>
